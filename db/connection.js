@@ -4,10 +4,10 @@ require ('dotenv').config();
 const connection = mysql.createConnection(
     {
         host: 'localhost',
-        user: process.env.DB_USER,
-        password: process.env.DB_PASSWORD,
+        user: 'root',
+        password: 'Clemson#2016',
         database: 'ChandlerCon',
-        socketPath: '/tmp/mysql.sock'
+        // socketPath: '/tmp/mysql.sock'
     }
 )
 
